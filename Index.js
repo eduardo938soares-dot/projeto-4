@@ -4,13 +4,13 @@ const quantidade = 2
 const formaPagamento = 'cartao'
 const statusPedido = 'pendente'
 
-let prato = '';
+let prato = "guaraná"
 let precoUnitario = 0
-let freteStatus = ''
-let frete = 0
+let freteStatus = "frete pago"
+let frete = 8
 let pagamentoMensagem = ''
-let descontoPercentual = 0
-let statusMensagem = ''
+let descontoPercentual = 5
+let statusMensagem = "aguardando pagamento"
 
 switch (opcaoMenu) {
   case 4:
